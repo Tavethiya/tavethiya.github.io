@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Mail } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "@/components/Icons";
+import { GithubIcon, LinkedinIcon, WhatsappIcon } from "@/components/Icons";
 import { site } from "@/lib/site";
 import { Section } from "@/components/Section";
 import { Reveal } from "@/components/Reveal";
@@ -24,6 +24,7 @@ const breadcrumb = {
 
 const channels = [
   { label: "Email", value: site.email, href: `mailto:${site.email}`, Icon: Mail },
+  { label: "WhatsApp", value: "+91 90334 04261", href: site.social.whatsapp, Icon: WhatsappIcon },
   { label: "LinkedIn", value: "mahesh-tavethiya", href: site.social.linkedin, Icon: LinkedinIcon },
   { label: "GitHub", value: site.handle, href: site.social.github, Icon: GithubIcon },
 ];

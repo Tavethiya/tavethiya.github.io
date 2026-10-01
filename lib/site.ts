@@ -13,11 +13,12 @@ export const site = {
     "I build SaaS products and MVPs with Next.js, React, Angular, Node.js and .NET, and ship them on AWS/Azure.",
   description:
     "Mahesh Tavethiya is a full-stack engineer building SaaS products and MVPs with Next.js, React, Angular, Node.js and .NET on AWS and Azure.",
-  location: "India", // TODO: confirm or change
+  location: "India",
   email: "mtavethiya12@gmail.com",
   social: {
     github: "https://github.com/Tavethiya",
     linkedin: "https://linkedin.com/in/mahesh-tavethiya",
+    whatsapp: "https://wa.me/919033404261",
   },
   keywords: [
     "Mahesh Tavethiya",
@@ -104,49 +105,51 @@ export type Experience = {
 };
 
 /**
- * TODO: Replace these placeholders with your real roles.
  * Keep bullets outcome-focused: what shipped, what improved, by how much.
  */
 export const experience: Experience[] = [
   {
-    company: "Company Name", // TODO
-    role: "Senior Full-Stack Engineer", // TODO
-    period: "2023 - Present", // TODO
-    location: "Remote", // TODO
+    company: "Self-employed",
+    role: "Full-Stack / MEAN Stack Developer",
+    period: "Oct 2018 – Present",
+    location: "Greater Ahmedabad Area · Remote",
     summary:
-      "Lead engineer on SaaS products built with Next.js and .NET, owning delivery from architecture to deployment.",
+      "Independent engineering for founders, agencies and product teams across the US, UK, Europe and Australia — 8,400+ tracked hours, 23+ engagements, 92% Job Success and a 5.0★ average across 27 Upwork reviews.",
     bullets: [
-      "Architected and shipped a multi-tenant SaaS platform on Next.js, Node.js and PostgreSQL.",
-      "Cut page load times by over 50% through server rendering, image optimisation and caching.",
-      "Set up CI/CD on GitHub Actions with Docker deployments to Azure.",
+      "Delivered MVPs from zero: Next.js/React front ends on Node.js and Express/FeathersJS with auth, payments and a live deployment within weeks.",
+      "Built real-time IoT and telemetry dashboards handling high event volumes with streaming device data and time-series visualisation.",
+      "Led Angular modernisation projects — upgraded legacy codebases, cut bundle size and load times, stabilised inherited applications.",
+      "Embedded as fractional senior engineer on product teams, owning architecture decisions and unblocking delivery.",
     ],
-    stack: ["Next.js", "TypeScript", ".NET", "PostgreSQL", "Azure"],
+    stack: ["TypeScript", "React", "Next.js", "Angular", "Node.js", "FeathersJS", "Express", "MongoDB", "PostgreSQL", "Azure", "AWS", "Docker"],
   },
   {
-    company: "Company Name", // TODO
-    role: "Full-Stack Developer", // TODO
-    period: "2020 - 2023", // TODO
-    location: "Remote", // TODO
+    company: "Insigma Inc",
+    role: "Software Engineer",
+    period: "Jun 2016 – Sep 2018",
+    location: "Noida, Uttar Pradesh, India · Hybrid",
     summary:
-      "Built and maintained client web applications across React, Angular and Node.js stacks.",
+      "Built and maintained enterprise web applications for international clients as part of a delivery team.",
     bullets: [
-      "Delivered MVPs for early-stage startups, taking ideas from wireframe to launch.",
-      "Built REST and GraphQL APIs on Node.js and Express backed by MongoDB and MySQL.",
-      "Containerised services with Docker and deployed on AWS.",
+      "Developed component-based Angular and TypeScript front ends, replacing older jQuery-driven interfaces.",
+      "Built and consumed REST APIs on ASP.NET / C# backed by SQL Server and Azure SQL.",
+      "Deployed and maintained applications on Microsoft Azure, including Azure Web Apps and Azure SQL.",
+      "Worked directly with client stakeholders on requirements and demos, cutting out project-management overhead.",
     ],
-    stack: ["React", "Angular", "Node.js", "MongoDB", "AWS"],
+    stack: ["Angular", "TypeScript", "ASP.NET", "C#", "SQL Server", "Azure", "Bootstrap"],
   },
   {
-    company: "Company Name", // TODO
-    role: "Software Developer", // TODO
-    period: "2018 - 2020", // TODO
-    location: "India", // TODO
-    summary: "Developed web applications and internal tools with .NET and JavaScript.",
+    company: "SciTER Technologies Pvt. Ltd.",
+    role: "Software Developer",
+    period: "Apr 2015 – May 2016",
+    location: "Ahmedabad, Gujarat, India · On-site",
+    summary:
+      "First professional role on a small team, owning features end to end from day one.",
     bullets: [
-      "Built ASP.NET Core services and SQL Server data layers for business applications.",
-      "Introduced automated testing and code review practices to the team.",
+      "Built front-end interfaces in HTML5, CSS3, JavaScript and jQuery, and moved into early Angular work as the team modernised its stack.",
+      "Wrote server-side logic and SQL Server queries for internal and client-facing applications.",
     ],
-    stack: [".NET", "ASP.NET Core", "MSSQL", "JavaScript"],
+    stack: ["HTML5", "CSS3", "JavaScript", "jQuery", "Angular", "SQL Server"],
   },
 ];
 

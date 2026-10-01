@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "./Icons";
+import { GithubIcon, LinkedinIcon, WhatsappIcon } from "./Icons";
 import { site } from "@/lib/site";
 import { Typewriter } from "./Typewriter";
 
@@ -77,6 +77,15 @@ export function Hero() {
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-line text-muted transition hover:border-accent hover:text-accent"
               >
                 <LinkedinIcon />
+              </a>
+              <a
+                href={site.social.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-line text-muted transition hover:border-accent hover:text-accent"
+              >
+                <WhatsappIcon />
               </a>
             </div>
           </motion.div>
