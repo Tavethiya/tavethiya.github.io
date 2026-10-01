@@ -15,7 +15,6 @@ export const site = {
     "Mahesh Tavethiya is a full-stack engineer building SaaS products and MVPs with Next.js, React, Angular, Node.js and .NET on AWS and Azure.",
   location: "India", // TODO: confirm or change
   email: "mtavethiya12@gmail.com",
-  availability: "Open to freelance and contract work",
   social: {
     github: "https://github.com/Tavethiya",
     linkedin: "https://linkedin.com/in/mahesh-tavethiya",

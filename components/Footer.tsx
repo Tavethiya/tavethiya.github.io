@@ -9,7 +9,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-12 sm:px-6 md:flex-row md:items-center md:justify-between">
         <div>
           <p className="font-display text-lg font-semibold">{site.name}</p>
-          <p className="mt-1 text-sm text-muted">{site.role}. {site.availability}.</p>
+          <p className="mt-1 text-sm text-muted">{site.role}.</p>
         </div>
 
         <nav aria-label="Footer" className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted">

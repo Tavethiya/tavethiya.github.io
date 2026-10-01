@@ -47,8 +47,8 @@ export default function AboutPage() {
                   <dd className="font-semibold">{site.location}</dd>
                 </div>
                 <div>
-                  <dt className="text-muted">Availability</dt>
-                  <dd className="font-semibold">{site.availability}</dd>
+                  <dt className="text-muted">Focus</dt>
+                  <dd className="font-semibold">SaaS &amp; product engineering</dd>
                 </div>
                 <div>
                   <dt className="text-muted">Email</dt>
